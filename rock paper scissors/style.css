@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #FFD200, #F7971E); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width:100%;
+    height: 100%;
+    width: 600px;
+    height:400px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+
+.fa-solid{
+    height: 6rem;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    margin: 2rem 2rem;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, #FFD200, #F7971E);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    &:hover{
+        background-image: linear-gradient(to right, #f3ce2c, #ea8406); 
+    }
+}
+
+#PlayerChoice {
+    & .fa-solid{
+        height: 4rem;
+        margin: 1rem 1rem;
+        font-size: 2rem;
+        background-color: #fff;
+        border:2px solid black;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+}
+
+#CompChoice {
+    & .fa-solid{
+        height: 4rem;
+        margin: 1rem 1rem;
+        font-size: 2rem;
+        background-color: #fff;
+        border:2px solid black;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}
+
+.choicess{
+    margin: 1rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    gap:6rem;
+}
+
+.result{
+    font-size: 1.4rem;
+    background-image: linear-gradient(to right, #FFD200, #F7971E);
+    display: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+}
